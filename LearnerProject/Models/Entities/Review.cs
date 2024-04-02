@@ -9,6 +9,7 @@ namespace LearnerProject.Models.Entities
     {
         public int ReviewId { get; set; }
         public double ReviewValue { get; set; }
+        public string Comment { get; set; }
 
 
         public int CourseId { get; set; }
