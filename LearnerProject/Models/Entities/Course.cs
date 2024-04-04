@@ -17,8 +17,6 @@ namespace LearnerProject.Models.Entities
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
 
-        public int ClassroomId { get; set; }
-        public virtual Classroom Classroom { get; set; }
         
         public List<Review> Reviews { get; set; }
 

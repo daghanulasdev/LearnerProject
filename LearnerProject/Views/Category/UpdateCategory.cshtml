@@ -1,0 +1,17 @@
+﻿@model LearnerProject.Models.Entities.Category
+@{
+    ViewBag.Title = "Kategori Guncelleme Sayfasi";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post">
+    @Html.HiddenFor(x=>x.CategoryId)
+    <label>Kategori Adi</label>
+    @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control" })
+    <br />
+    <label>Ikon</label>
+    @Html.TextBoxFor(x => x.Icon, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-primary">Guncelle</button>
+</form>
+

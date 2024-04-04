@@ -12,6 +12,6 @@ namespace LearnerProject.Models.Entities
         public string Description { get; set; }
         public string Icon {  get; set; }
 
-        public List<Course> Courses { get; set; }
+       
     }
 }
