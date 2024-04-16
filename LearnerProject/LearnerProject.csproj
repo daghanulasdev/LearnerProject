@@ -127,11 +127,18 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\AdminDashboardController.cs" />
     <Compile Include="Controllers\AdminLayoutController.cs" />
+    <Compile Include="Controllers\BannerController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\ClassroomController.cs" />
+    <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\DefaultLayoutController.cs" />
+    <Compile Include="Controllers\FAQController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TestimonialController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -488,9 +495,18 @@
     <Content Include="Views\Category\UpdateCategory.cshtml" />
     <Content Include="Views\DefaultLayout\Index.cshtml" />
     <Content Include="Views\Default\Index.cshtml" />
+    <Content Include="Views\Course\Index.cshtml" />
+    <Content Include="Views\Course\AddCourse.cshtml" />
+    <Content Include="Views\Course\UpdateCourse.cshtml" />
+    <Content Include="Views\AdminDashboard\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\About\" />
+    <Folder Include="Views\Banner\" />
+    <Folder Include="Views\Classroom\" />
+    <Folder Include="Views\FAQ\" />
+    <Folder Include="Views\Testimonial\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
