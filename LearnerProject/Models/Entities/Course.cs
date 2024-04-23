@@ -21,5 +21,10 @@ namespace LearnerProject.Models.Entities
         public List<Review> Reviews { get; set; }
 
         public List<CourseRegister> CourseRegisters { get; set; }
+    
+        public int? TeacherId { get; set; }
+        public virtual Teacher Teacher { get; set; }
+
+        public List<CourseVideo> CourseVideos { get; set; }
     }
 }
